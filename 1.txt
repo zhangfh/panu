@@ -1,0 +1,1162 @@
+--------- beginning of /dev/log/system
+I/Vold    (  667): Vold 2.1 (the revenge) firing up
+D/Vold    (  667): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+W/Vold    (  667): Ignoring unknown switch 'usb_connected'
+D/Vold    (  667): USB connected
+D/Vold    (  667): Share method ums now available
+D/Vold    (  667): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+I/SystemServer(  939): Entered the Android system server!
+I/SystemServer(  939): Entropy Service
+W/EntropyService(  939): unable to load initial entropy (first boot?)
+W/EntropyService(  939): java.io.FileNotFoundException: /data/system/entropy.dat (No such file or directory)
+W/EntropyService(  939): 	at org.apache.harmony.luni.platform.OSFileSystem.open(Native Method)
+W/EntropyService(  939): 	at dalvik.system.BlockGuard$WrappedFileSystem.open(BlockGuard.java:232)
+W/EntropyService(  939): 	at java.io.FileInputStream.<init>(FileInputStream.java:80)
+W/EntropyService(  939): 	at java.io.FileInputStream.<init>(FileInputStream.java:132)
+W/EntropyService(  939): 	at com.android.server.RandomBlock.fromFile(RandomBlock.java:45)
+W/EntropyService(  939): 	at com.android.server.EntropyService.loadInitialEntropy(EntropyService.java:99)
+W/EntropyService(  939): 	at com.android.server.EntropyService.<init>(EntropyService.java:86)
+W/EntropyService(  939): 	at com.android.server.EntropyService.<init>(EntropyService.java:76)
+W/EntropyService(  939): 	at com.android.server.ServerThread.run(SystemServer.java:146)
+I/SystemServer(  939): Power Manager
+I/SystemServer(  939): Activity Manager
+I/ActivityManager(  939): Memory class: 128
+I/SystemServer(  939): Telephony Registry
+I/SystemServer(  939): Telephony Registry2
+I/SystemServer(  939): Package Manager
+I/Installer(  939): connecting...
+I/PackageManager(  939): No settings file; creating initial state
+W/PackageManager(  939): Running ENG build: no pre-dexopt!
+I/PackageManager(  939): Time to scan packages: 20.045 seconds
+I/PackageManager(  939): Platform changed from 0 to 10; regranting permissions for internal storage
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.contacts
+W/PackageManager(  939): Unknown permission android.permission.ADD_SYSTEM_SERVICE in package com.android.phone
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager(  939): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x9be45)
+W/PackageManager(  939): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager(  939): Unknown permission com.google.android.gm.permission.WRITE_GMAIL in package com.android.settings
+W/PackageManager(  939): Unknown permission com.google.android.gm.permission.READ_GMAIL in package com.android.settings
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.contacts
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cp in package com.android.providers.contacts
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager(  939): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager(  939): Unknown permission com.android.email.permission.ACCESS_PROVIDER in package com.android.camera
+W/PackageManager(  939): Not granting permission android.permission.INJECT_EVENTS to package com.lts.bluetooth (protectionLevel=2 flags=0x8be4d)
+W/PackageManager(  939): Unknown permission android.permission.ACCESS_DRM in package com.android.providers.downloads
+W/PackageManager(  939): Unknown permission android.permission.INSTALL_DRM in package com.android.providers.downloads
+I/SystemServer(  939): Account Manager
+I/SystemServer(  939): Content Manager
+I/SystemServer(  939): System Content Providers
+I/SystemServer(  939): Battery Service
+I/SystemServer(  939): Lights Service
+I/SystemServer(  939): Vibrator Service
+I/SystemServer(  939): Alarm Manager
+I/SystemServer(  939): Init Watchdog
+I/SystemServer(  939): Window Manager
+I/InputManager(  939): Initializing input manager
+I/InputManager(  939): Starting input manager
+I/SystemServer(  939): .......BLEBluetooth Service
+I/SystemServer(  939): Bluetooth Service
+I/InputManager-Callbacks(  939): No input device calibration properties found for device vkp.
+I/InputManager-Callbacks(  939): No input device calibration properties found for device vts.
+I/SystemServer(  939): Device Policy
+I/SystemServer(  939): Status Bar
+I/SystemServer(  939): Clipboard Service
+I/SystemServer(  939): Input Method Service
+I/InputManagerService(  939): Enabled input methods: null
+I/InputManagerService(  939): Enabled input methods or default IME has not been set, enabling all
+I/SystemServer(  939): NetStat Service
+I/SystemServer(  939): NetworkManagement Service
+I/SystemServer(  939): Connectivity Service
+V/ConnectivityServiceExt(  939): ConnectivityServiceExt starting up
+E/ConnectivityServiceExt(  939): naString=wifi,1,1,1
+E/ConnectivityServiceExt(  939): naString=bluetooth,7,7,2
+E/ConnectivityServiceExt(  939): naString=mobile,0,0,0
+E/ConnectivityServiceExt(  939): naString=mobile_mms,2,0,2
+E/ConnectivityServiceExt(  939): naString=mobile_supl,3,0,2
+E/ConnectivityServiceExt(  939): naString=mobile_hipri,5,0,3
+E/ConnectivityServiceExt(  939): naString=mobile_wap,10,0,2
+E/ConnectivityServiceExt(  939): naString=mobile_email,11,0,2
+E/ConnectivityServiceExt(  939): naString=mobile_internet,12,0,2
+E/ConnectivityServiceExt(  939): naString=mobile_lab,13,0,2
+E/ConnectivityServiceExt(  939): naString=mobile_dm,14,0,2
+E/ConnectivityServiceExt(  939): mNetworksDefined=11
+E/ConnectivityServiceExt(  939): mType=0
+E/ConnectivityServiceExt(  939): mPriority=0
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939):  insertionPoint= 10mType= 0
+E/ConnectivityServiceExt(  939): mType=1
+E/ConnectivityServiceExt(  939): mPriority=1
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=2
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=3
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=5
+E/ConnectivityServiceExt(  939): mPriority=3
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=7
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=10
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=11
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=12
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=13
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=14
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=0
+E/ConnectivityServiceExt(  939): nextLowest = 1
+E/ConnectivityServiceExt(  939): insertionPoint continue= 9
+E/ConnectivityServiceExt(  939): mType=0
+E/ConnectivityServiceExt(  939): mPriority=0
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=1
+E/ConnectivityServiceExt(  939): mPriority=1
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939):  insertionPoint= 9mType= 1
+E/ConnectivityServiceExt(  939): mType=2
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=3
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=5
+E/ConnectivityServiceExt(  939): mPriority=3
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=7
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=10
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=11
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=12
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=13
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=14
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=1
+E/ConnectivityServiceExt(  939): nextLowest = 2
+E/ConnectivityServiceExt(  939): insertionPoint continue= 8
+E/ConnectivityServiceExt(  939): mType=0
+E/ConnectivityServiceExt(  939): mPriority=0
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=1
+E/ConnectivityServiceExt(  939): mPriority=1
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=2
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939):  insertionPoint= 8mType= 2
+E/ConnectivityServiceExt(  939): mType=3
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939):  insertionPoint= 7mType= 3
+E/ConnectivityServiceExt(  939): mType=5
+E/ConnectivityServiceExt(  939): mPriority=3
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): insertionPoint continue= 6
+E/ConnectivityServiceExt(  939): mType=7
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 3
+E/ConnectivityServiceExt(  939):  insertionPoint= 6mType= 7
+E/ConnectivityServiceExt(  939): mType=10
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 3
+E/ConnectivityServiceExt(  939):  insertionPoint= 5mType= 10
+E/ConnectivityServiceExt(  939): mType=11
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 3
+E/ConnectivityServiceExt(  939):  insertionPoint= 4mType= 11
+E/ConnectivityServiceExt(  939): mType=12
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 3
+E/ConnectivityServiceExt(  939):  insertionPoint= 3mType= 12
+E/ConnectivityServiceExt(  939): mType=13
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 3
+E/ConnectivityServiceExt(  939):  insertionPoint= 2mType= 13
+E/ConnectivityServiceExt(  939): mType=14
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=2
+E/ConnectivityServiceExt(  939): nextLowest = 3
+E/ConnectivityServiceExt(  939):  insertionPoint= 1mType= 14
+E/ConnectivityServiceExt(  939): mType=0
+E/ConnectivityServiceExt(  939): mPriority=0
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=1
+E/ConnectivityServiceExt(  939): mPriority=1
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=2
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=3
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=5
+E/ConnectivityServiceExt(  939): mPriority=3
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939):  insertionPoint= 0mType= 5
+E/ConnectivityServiceExt(  939): mType=7
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=10
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=11
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=12
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=13
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+E/ConnectivityServiceExt(  939): mType=14
+E/ConnectivityServiceExt(  939): mPriority=2
+E/ConnectivityServiceExt(  939): currentLowest=3
+E/ConnectivityServiceExt(  939): nextLowest = 0
+D/ConnectivityServiceExt(  939): getMobileDataEnabled returning true
+V/ConnectivityServiceExt(  939): netType: 5 radio: 0
+V/ConnectivityServiceExt(  939): netType: 14 radio: 0
+V/ConnectivityServiceExt(  939): netType: 13 radio: 0
+V/ConnectivityServiceExt(  939): netType: 12 radio: 0
+V/ConnectivityServiceExt(  939): netType: 11 radio: 0
+V/ConnectivityServiceExt(  939): netType: 10 radio: 0
+V/ConnectivityServiceExt(  939): netType: 7 radio: 7
+E/ConnectivityServiceExt(  939): new BluetoothTetheringDataTracker Ext 
+V/ConnectivityServiceExt(  939): netType: 3 radio: 0
+V/ConnectivityServiceExt(  939): netType: 2 radio: 0
+V/ConnectivityServiceExt(  939): netType: 1 radio: 1
+V/ConnectivityServiceExt(  939): Starting Wifi Service.
+I/WifiService(  939): WifiService starting up with Wi-Fi disabled
+V/ConnectivityServiceExt(  939): netType: 0 radio: 0
+D/ConnectivityServiceExt(  939): getMobileDataNetworkMode returning 1
+D/NetworkManagmentService(  939): Registering observer
+I/SystemServer(  939): Throttle Service
+I/SystemServer(  939): Accessibility Manager
+I/SystemServer(  939): Mount Service
+I/SystemServer(  939): Notification Manager
+I/SystemServer(  939): Device Storage Monitor
+V/DeviceStorageMonitorService(  939): Threshold Percentage=10
+V/DeviceStorageMonitorService(  939): Full Threshold Bytes=1048576
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():36027, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=147566592 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/VoldCmdListener(  667): volume list
+I/SystemServer(  939): Location Manager
+D/VoldCmdListener(  667): share status ums
+I/SystemServer(  939): Search Service
+I/SystemServer(  939): DropBox Service
+I/SystemServer(  939): Wallpaper Service
+W/WallpaperService(  939): failed parsing /data/system/wallpaper_info.xml java.io.FileNotFoundException: /data/system/wallpaper_info.xml (No such file or directory)
+I/SystemServer(  939): Audio Service
+I/SystemServer(  939): Headset Observer
+I/SystemServer(  939): Dock Observer
+W/DockObserver(  939): This kernel does not have dock station support
+I/SystemServer(  939): USB Service
+I/SystemServer(  939): UI Mode Manager Service
+I/SystemServer(  939): Backup Service
+V/BackupManagerService(  939): No ancestral data
+I/BackupManagerService(  939): Backup enabled => false
+I/SystemServer(  939): AppWidget Service
+I/SystemServer(  939): Recognition Service
+I/SystemServer(  939): DiskStats Service
+D/PowerManagerService(  939): system ready!
+I/ActivityManager(  939): Sending system update to: ComponentInfo{com.android.providers.calendar/com.android.providers.calendar.CalendarUpgradeReceiver}
+I/ActivityManager(  939): Sending system update to: ComponentInfo{com.android.providers.contacts/com.android.providers.contacts.ContactsUpgradeReceiver}
+I/SystemServer(  939): Enabled StrictMode for system server main thread.
+I/ActivityManager(  939): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarUpgradeReceiver: pid=1048 uid=10017 gids={3003}
+I/ActivityManager(  939): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.provision/.DefaultActivity } from pid 0
+I/ActivityManager(  939): Launching preboot mode app: ProcessRecord{4051abd8 1048:com.android.providers.calendar/10017}
+I/ActivityManager(  939): Start proc android.process.acore for broadcast com.android.providers.contacts/.ContactsUpgradeReceiver: pid=1062 uid=10005 gids={3003, 1015}
+I/ActivityManager(  939): Launching preboot mode app: ProcessRecord{405b1680 1062:android.process.acore/10005}
+I/ActivityManager(  939): Writing new set of last done pre-boot receivers...
+I/ActivityManager(  939): Removing system update proc: ProcessRecord{4051abd8 1048:com.android.providers.calendar/10017}
+I/ActivityManager(  939): Removing system update proc: ProcessRecord{405b1680 1062:android.process.acore/10005}
+I/ActivityManager(  939): System now ready
+I/SystemServer(  939): Making services ready
+I/StatusBarManagerService(  939): Starting service: ComponentInfo{com.android.systemui/com.android.systemui.statusbar.StatusBarService}
+I/ActivityManager(  939): Start proc com.android.systemui for service com.android.systemui/.statusbar.StatusBarService: pid=1081 uid=1000 gids={3003, 1015, 3001, 3002}
+I/ActivityManager(  939): Config changed: { scale=1.0 imsi=0/0 loc=zh_CN touch=0 keys=0/0/0 nav=0/0 orien=0 layout=0 uiMode=17 seq=2}
+W/RecognitionManagerService(  939): no available voice recognition services found
+I/UsbService(  939): Device not provisioned, skipping USB broadcast
+D/NetworkManagmentService(  939): Registering observer
+E/ThrottleService(  939): Error reading data file
+I/ActivityManager(  939): Start proc com.android.phone for added application com.android.phone: pid=1090 uid=1001 gids={3002, 3001, 3003, 1015}
+I/ActivityManager(  939): Start proc com.android.systemui for added application com.android.systemui: pid=1094 uid=1000 gids={3003, 1015, 3001, 3002}
+I/ActivityManager(  939): Start proc com.lts.bluetooth for added application com.lts.bluetooth: pid=1098 uid=10010 gids={3001, 3002}
+I/ActivityManager(  939): Start proc com.android.provision for activity com.android.provision/.DefaultActivity: pid=1100 uid=10001 gids={}
+I/ActivityManager(  939): Config changed: { scale=1.0 imsi=0/0 loc=zh_CN touch=3 keys=1/2/2 nav=2/1 orien=3 layout=17 uiMode=17 seq=3}
+W/ActivityManager(  939): No pending application record for pid 1081 (IApplicationThread android.app.ApplicationThreadProxy@4064d260); dropping process
+W/ActivityManager(  939): Unable to start service Intent { act=com.google.android.location.NetworkLocationProvider }: not found
+I/StatusBarManagerService(  939): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@4052d498
+W/ActivityManager(  939): Unable to start service Intent { act=com.google.android.location.GeocodeProvider }: not found
+D/VoldCmdListener(  667): share status ums
+D/StorageNotification( 1094): Startup with UMS connection false (media state unmounted)
+I/StorageNotification( 1094): UMS connection changed to true (media state unmounted)
+W/BackupManagerService(  939): dataChanged but no participant pkg='com.android.providers.settings' uid=10001
+I/ActivityManager(  939): Force stopping package com.android.provision uid=10001
+I/ActivityManager(  939): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher } from pid 0
+I/ActivityManager(  939): Start proc com.android.launcher for activity com.android.launcher/com.android.launcher2.Launcher: pid=1174 uid=10029 gids={}
+D/ConnectivityServiceExt(  939): getMobileDataEnabled returning true
+D/ConnectivityServiceExt(  939): getDefaultMobileDataEnabled returning true
+D/ConnectivityServiceExt(  939): getMobileDataNetworkMode returning 1
+I/ActivityManager(  939): Start proc android.process.acore for content provider com.android.providers.contacts/.CallLogProvider: pid=1188 uid=10005 gids={3003, 1015}
+W/ActivityManager(  939): Unable to start service Intent { act=com.android.ussd.IExtendedNetworkService }: not found
+I/TelephonyRegistry(  939): notifyServiceState: 3 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/TelephonyRegistry(  939): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=radioTurnedOff interfaceName=null networkType=0
+I/TelephonyRegistry(  939): notifyDataConnection: state=0 isDataConnectivityPossible=false reason=gprsDetached interfaceName=null networkType=0
+I/TelephonyRegistry(  939): notifyServiceState: 1 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: false
+I/ActivityManager(  939): Start proc com.lonshine.idlewidget for broadcast com.lonshine.idlewidget/.IdleWidgetProvider: pid=1219 uid=1000 gids={3003, 1015, 3001, 3002}
+D/PowerManagerService(  939): bootCompleted
+I/ActivityManager(  939): Start proc com.lst.weather for service com.lst.weather/.WeatherService: pid=1231 uid=10030 gids={3003}
+I/StatusBarManagerService(  939): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@40879000
+D/VoldCmdListener(  667): volume mount /mnt/sdcard1
+I/Vold    (  667): /dev/block/vold/7:7 being considered for volume sdcard
+D/Vold    (  667): Volume sdcard state changing 1 (Idle-Unmounted) -> 3 (Checking)
+I/StorageNotification( 1094): Media {/mnt/sdcard1} state changed from {unmounted} -> {checking}
+I/StatusBarManagerService(  939): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@40864b78
+E/Vold    (  667): Filesystem check failed (not a FAT filesystem)
+W/Vold    (  667): /dev/block/vold/7:7 does not contain a FAT filesystem
+E/Vold    (  667): Volume sdcard found no suitable devices for mounting :(
+D/Vold    (  667): Volume sdcard state changing 3 (Checking) -> 1 (Idle-Unmounted)
+I/StorageNotification( 1094): Media {/mnt/sdcard1} state changed from {checking} -> {unmounted}
+E/MountService(  939): Boot-time mount failed (-3)
+I/WifiService(  939): WifiService trying to setNumAllowed to 13 with persist set to true
+I/ActivityManager(  939): Config changed: { scale=1.0 imsi=460/1 loc=zh_CN touch=3 keys=1/2/2 nav=2/1 orien=3 layout=17 uiMode=17 seq=4}
+I/WifiService(  939): WifiService trying to setNumAllowed to 13 with persist set to true
+D/VoldCmdListener(  667): volume shared /mnt/sdcard1 ums
+I/StorageNotification( 1094): Media {/mnt/sdcard1} state changed from {unmounted} -> {nofs}
+I/TelephonyRegistry(  939): notifyServiceState: 1 home null null null  Unknown CSS not supported -1 -1RoamInd: -1DefRoamInd: -1EmergOnly: true
+I/ActivityManager(  939): Start proc android.process.media for broadcast com.android.providers.downloads/.DownloadReceiver: pid=1256 uid=10003 gids={1015, 1006, 2001, 3003}
+W/WindowManager(  939): App freeze timeout expired.
+W/WindowManager(  939): Force clearing freeze: AppWindowToken{408d3e48 token=HistoryRecord{408d3038 com.android.launcher/com.android.launcher2.Launcher}}
+I/ActivityManager(  939): Start proc com.android.bluetooth for broadcast com.android.bluetooth/.opp.BluetoothOppReceiver: pid=1276 uid=10006 gids={3003, 3002, 3001, 1015}
+I/ActivityManager(  939): Start proc com.lst.pedometer for broadcast com.lst.pedometer/.PedometerSettingReceiver: pid=1292 uid=10009 gids={}
+I/ActivityManager(  939): Start proc com.android.providers.calendar for broadcast com.android.providers.calendar/.CalendarReceiver: pid=1306 uid=10017 gids={3003}
+I/ActivityManager(  939): Start proc com.android.mms for broadcast com.android.mms/.transaction.MmsSystemEventReceiver: pid=1323 uid=10020 gids={3003, 1015}
+I/InputManager-Callbacks(  939): No virtual keys found for device vts.
+I/ActivityManager(  939): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings bnds=[1,51][46,96] } from pid 1174
+I/ActivityManager(  939): Start proc com.android.settings for activity com.android.settings/.Settings: pid=1349 uid=1000 gids={3003, 1015, 3001, 3002}
+I/ActivityManager(  939): Start proc com.android.deskclock for broadcast com.android.deskclock/.AlarmInitReceiver: pid=1366 uid=10025 gids={}
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34636, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141869056 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+W/AlarmManager(  939): setRtc = 1409382103206
+W/BackupManagerService(  939): dataChanged but no participant pkg='com.android.providers.settings' uid=10025
+W/AlarmManager(  939): mPowerOnForAlarm = false
+I/StatusBarManagerService(  939): registerStatusBar bar=com.android.internal.statusbar.IStatusBar$Stub$Proxy@40841208
+I/ActivityManager(  939): Starting: Intent { act=android.intent.action.MAIN cmp=com.android.settings/.bluetooth.BluetoothSettings } from pid 1349
+--------- beginning of /dev/log/main
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+I/IdleWidgetApp( 1219): onReceive android.intent.action.TIME_SET
+D/IdleWidgetApp( 1219): EVENT_TIME_TICK now= 0:56
+W/BackupManagerService(  939): dataChanged but no participant pkg='com.android.providers.settings' uid=10003
+W/BackupManagerService(  939): dataChanged but no participant pkg='com.android.providers.settings' uid=10003
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 )
+I/dalvikvm( 1090): Jit: resizing JitTable from 512 to 1024
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+W/BackupManagerService(  939): dataChanged but no participant pkg='com.android.providers.settings' uid=10003
+D/AlarmManagerService(  939): type :0
+D/AlarmManagerService(  939): needSetRtc :true
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 )
+D/Activity( 1349): dx : -5 dy: 63 mFlipFinishWidth : 48
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 )
+D/Activity( 1349): dx : 6 dy: -69 mFlipFinishWidth : 48
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/Activity( 1349): dx : 80 dy: -7 mFlipFinishWidth : 48
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/dalvikvm( 1349): GC_CONCURRENT freed 448K, 48% free 3173K/6087K, external 434K/815K, paused 8ms+11ms
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 )
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func disconnect
+E/BluetoothPan( 1349): disconnect(E8:8D:28:E0:AC:51)
+E/BluetoothPanService(  939): disconnect PAN(/org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51)
+E/BluetoothPanService(  939): in func handlePanDeviceStateChang iface=bnep0 state=3 role=2
+E/BluetoothPanService(  939): Pan Device state : device: E8:8D:28:E0:AC:51 State:2->3
+E/BluetoothPanService.cpp(  939): disconnectPanDeviceNative
+E/BluetoothPanService.cpp(  939): in jboolean android::disconnectPanDeviceNative(JNIEnv*, _jobject*, _jstring*): role:/org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/Tethering(  939): attempting to remove unknown iface (bnep0), ignoring
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Network:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothPanService.cpp(  939): pan_event_filter
+E/BluetoothPanService.cpp(  939):  
+E/BluetoothPanService.cpp(  939): org.bluez.Network PropertyChanged
+D/CachedBluetoothDevice( 1349): Command sent successfully:DISCONNECT Address:E8:8D:28:E0:AC:51 Profile:PAN
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.pan.action.STATE_CHANGED
+I/BluetoothEventRedirector( 1349): android.bluetooth.pan.action.STATE_CHANGED: 2 => 3
+D/CachedBluetoothDevice( 1349): onProfileStateChanged: profile PAN newProfileState 3
+E/LocalBluetoothProfileManager( 1349): in func converState3
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState3
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/BluetoothPanService(  939): onPanDevicePropertyChanged
+D/BluetoothPanService(  939): Pan Device property changed: E8:8D:28:E0:AC:51  property: Connected value: false
+D/BluetoothPanService(  939): Connected
+D/BluetoothPanService(  939): Connected false
+E/BluetoothPanService(  939): in func handlePanDeviceStateChang iface=null state=0 role=2
+E/BluetoothTethering(  939): in stopReverseTether
+E/LocalBluetoothProfileManager( 1349): in func converState3
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/dhcpcd  ( 1506): del_address: No such device
+I//system/bin/bluetoothd( 1435): bluetoothd[1436]: bnep0 disconnected
+E/ConnectivityServiceExt(  939): NetworkStateTracker.EVENT_CONFIGURATION_CHANGED
+E/ConnectivityServiceExt(  939): handleConnectivityChange
+D/NetworkStateTracker(  939): removeDefaultRoute for BLUETOOTH_TETHER (bnep0)
+D/NetUtils(  939): failed to remove default route for bnep0: No such device
+E/BluetoothPanService(  939): Pan Device state : device: E8:8D:28:E0:AC:51 State:3->0
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Network:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothPanService.cpp(  939): pan_event_filter
+E/BluetoothPanService.cpp(  939):  
+E/BluetoothPanService.cpp(  939): org.bluez.Network PropertyChanged
+E/BluetoothPanService(  939): onPanDevicePropertyChanged
+D/BluetoothPanService(  939): Pan Device property changed: E8:8D:28:E0:AC:51  property: Interface value: 
+D/BluetoothPanService(  939): interface
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Network:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothPanService.cpp(  939): pan_event_filter
+E/BluetoothPanService.cpp(  939):  
+E/BluetoothPanService.cpp(  939): org.bluez.Network PropertyChanged
+E/BluetoothPanService(  939): onPanDevicePropertyChanged
+D/BluetoothPanService(  939): Pan Device property changed: E8:8D:28:E0:AC:51  property: UUID value: 
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/Tethering(  939): MasterInitialState.processMessage what=3
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=53 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=54 visible=true num=0 )
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Device:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothEventLoop(  939): the remote user release the connection
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Device:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.pan.action.STATE_CHANGED
+I/BluetoothEventRedirector( 1349): android.bluetooth.pan.action.STATE_CHANGED: 3 => 0
+D/CachedBluetoothDevice( 1349): onProfileStateChanged: profile PAN newProfileState 0
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/dalvikvm(  939): GC_CONCURRENT freed 395K, 53% free 4326K/9095K, external 304K/809K, paused 20ms+25ms
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=54 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=54 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+E/ThrottleService(  939): Error reading data file
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/StorageMonitor( 1090): mms freeMem:127021056, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/dalvikvm( 1256): GC_EXPLICIT freed 322K, 50% free 2858K/5703K, external 261K/515K, paused 94ms
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/ActivityManager(  939): Starting: Intent { act=android.bluetooth.device.action.PAIRING_REQUEST flg=0x10000000 cmp=com.android.settings/.bluetooth.BluetoothPairingDialog (has extras) } from pid 1349
+W/InputManagerService(  939): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40866918
+D/dalvikvm( 1306): GC_EXPLICIT freed 142K, 51% free 2808K/5639K, external 261K/515K, paused 88ms
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=54 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=55 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/ConnectivityServiceExt(  939): adding dns 172.20.10.1 for BLUETOOTH_TETHER
+D/ConnectivityServiceExt(  939): ConnectivityChange for BLUETOOTH_TETHER: CONNECTED/CONNECTED
+D/ConnectivityServiceExt(  939): adding dns 172.20.10.1 for BLUETOOTH_TETHER
+D/dalvikvm( 1366): GC_EXPLICIT freed 220K, 52% free 2753K/5639K, external 261K/515K, paused 88ms
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34596, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141705216 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+W/InputManagerService(  939): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40567458
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/ActivityManager(  939): Starting: Intent { cmp=com.android.settings/.bluetooth.ConnectSpecificProfilesActivity (has extras) } from pid 1349
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=55 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 )
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/dalvikvm(  939): GC_CONCURRENT freed 436K, 53% free 4308K/9095K, external 304K/809K, paused 25ms+36ms
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/dalvikvm( 1349): Jit: resizing JitTable from 512 to 1024
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 )
+I/power   (  939): *** set_screen_state 0
+D/SurfaceFlinger(  939): About to give-up screen, flinger = 0x15f978
+D/AlarmManagerService(  939): type :2
+D/AlarmManagerService(  939): needSetRtc :false
+I/IdleWidgetApp( 1219): onReceive android.intent.action.SCREEN_OFF
+I/IdleWidgetProvider( 1219): onReceive intent=Intent { act=android.intent.action.SCREEN_OFF cmp=com.lonshine.idlewidget/.IdleWidgetProvider }
+W/AlarmManager(  939): setRtc = 1409382121199
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34595, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141701120 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/ConnectivityServiceExt(  939): ConnectivityChange for BLUETOOTH_TETHER: DISCONNECTED/DISCONNECTED
+D/ConnectivityServiceExt(  939): getMobileDataEnabled returning true
+D/ConnectivityServiceExt(  939): getDefaultMobileDataEnabled returning true
+W/InputManagerService(  939): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40577d58
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34595, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141701120 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+I/ActivityManager(  939): Starting: Intent { cmp=com.android.settings/.bluetooth.ConnectSpecificProfilesActivity (has extras) } from pid 1349
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func isPreferred
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func isPreferred
+I/ActivityManager(  939): Displayed com.android.settings/.bluetooth.ConnectSpecificProfilesActivity: +552ms
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=52 visible=true num=0 )
+D/SntpClient( 1349): request time failed: java.net.SocketTimeoutException: Try again
+E/UpdateTimeReceiver( 1349): Sntp NtpTime = 1409302856045 realTime1409302856045
+D/SystemClock( 1349): Setting time of day to sec=1409302856
+D/dalvikvm(  939): GC_CONCURRENT freed 392K, 53% free 4325K/9095K, external 304K/809K, paused 10ms+15ms
+D/dalvikvm( 1219): GC_EXPLICIT freed 353K, 51% free 2745K/5575K, external 270K/515K, paused 191ms
+D/StorageMonitor( 1090): mms freeMem:127021056, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/dalvikvm( 1231): GC_EXPLICIT freed 370K, 51% free 2737K/5575K, external 261K/515K, paused 91ms
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+I/dalvikvm(  939): Jit: resizing JitTable from 1024 to 2048
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34595, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141701120 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/dalvikvm(  939): GC_CONCURRENT freed 393K, 53% free 4319K/9095K, external 304K/809K, paused 10ms+15ms
+D/StorageMonitor( 1090): mms freeMem:127021056, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34595, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141701120 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/dalvikvm(  939): GC_CONCURRENT freed 387K, 53% free 4318K/9095K, external 304K/809K, paused 10ms+14ms
+D/StorageMonitor( 1090): mms freeMem:127021056, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34595, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141701120 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/dalvikvm(  939): GC_CONCURRENT freed 384K, 53% free 4318K/9095K, external 304K/809K, paused 10ms+15ms
+D/BtCallHandler( 1090): getBtCallState is IDLE
+D/BtCallHandler( 1090): getBtCallState is IDLE
+I/power   (  939): *** set_screen_state 1
+D/SurfaceFlinger(  939): Screen about to return, flinger = 0x15f978
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=56 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 )
+W/KeyCharacterMap( 1349): No keyboard for id 0
+W/KeyCharacterMap( 1349): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetApp( 1219): onReceive android.intent.action.SCREEN_ON
+D/IdleWidgetApp( 1219): EVENT_TIME_TICK now= 5:31
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetProvider( 1219): onReceive intent=Intent { act=android.intent.action.SCREEN_ON cmp=com.lonshine.idlewidget/.IdleWidgetProvider }
+D/IdleWidgetApp( 1219): EVENT_TIME_TICK now= 5:32
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 )
+W/Vold    (  667): Ignoring unknown switch 'usb_connected'
+D/Vold    (  667): USB disconnected
+D/Vold    (  667): Share method ums now unavailable
+I/StorageNotification( 1094): UMS connection changed to false (media state nofs)
+I/IdleWidgetProvider( 1219): removeNotification key=android.os.BinderProxy@40539be0
+W/ProcessStats(  939): Skipping unknown process pid 1807
+D/StorageMonitor( 1090): mms freeMem:127021056, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/PowerManagerService(  939): BatteryReceiver 
+D/PowerManagerService(  939): isFakePowerMode=false
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802ee level=61 visible=true num=0 )
+I/IdleWidgetProvider( 1219): convertDrawable2BitmapByCanvas enter
+I/IdleWidgetProvider( 1219): Bitmap.Config c = ARGB_8888
+I/IdleWidgetProvider( 1219): convertDrawable2BitmapByCanvas leave. 
+D/TimeView( 1174): update start
+D/TimeView( 1174): update start
+D/TimeView( 1174): update start
+D/TimeView( 1174): update start
+W/Vold    (  667): Ignoring unknown switch 'usb_connected'
+D/Vold    (  667): USB connected
+D/Vold    (  667): Share method ums now available
+I/StorageNotification( 1094): UMS connection changed to true (media state nofs)
+I/IdleWidgetProvider( 1219): addNotification notification=StatusBarNotification(package=com.android.systemui id=17302277 tag=null notification=Notification(vibrate=null,sound=null,defaults=0x0,flags=0x2))
+I/IdleWidgetProvider( 1219): updateNotification notification=StatusBarNotification(package=com.android.systemui id=17302277 tag=null notification=Notification(vibrate=null,sound=null,defaults=0x0,flags=0x2)) key=android.os.BinderProxy@4053b0d8
+D/PowerManagerService(  939): BatteryReceiver 
+D/PowerManagerService(  939): isFakePowerMode=false
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802ee level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 )
+I/IdleWidgetProvider( 1219): convertDrawable2BitmapByCanvas enter
+I/IdleWidgetProvider( 1219): Bitmap.Config c = ARGB_8888
+I/IdleWidgetProvider( 1219): convertDrawable2BitmapByCanvas leave. 
+D/TimeView( 1174): update start
+D/TimeView( 1174): update start
+D/TimeView( 1174): update start
+D/TimeView( 1174): update start
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/dalvikvm( 1219): GC_EXPLICIT freed 45K, 51% free 2738K/5575K, external 270K/515K, paused 116ms
+D/AndroidRuntime( 1838): 
+D/AndroidRuntime( 1838): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1838): CheckJNI is ON
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 )
+D/AndroidRuntime( 1838): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1838): Shutting down VM
+I/AndroidRuntime( 1838): NOTE: attach of thread 'Binder Thread #3' failed
+D/dalvikvm( 1838): GC_CONCURRENT freed 101K, 69% free 324K/1024K, external 0K/0K, paused 1ms+2ms
+D/jdwp    ( 1838): adbd disconnected
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+D/dalvikvm(  939): GC_CONCURRENT freed 377K, 53% free 4327K/9095K, external 319K/809K, paused 11ms+14ms
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 )
+W/ProcessStats(  939): Skipping unknown process pid 1872
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=61 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 )
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34593, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141692928 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 )
+D/dalvikvm( 1231): GC_EXPLICIT freed 1K, 51% free 2736K/5575K, external 261K/515K, paused 93ms
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 )
+D/StorageMonitor( 1090): mms freeMem:127012864, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/power   (  939): *** set_screen_state 0
+D/SurfaceFlinger(  939): About to give-up screen, flinger = 0x15f978
+D/AlarmManagerService(  939): type :2
+D/AlarmManagerService(  939): needSetRtc :false
+I/IdleWidgetApp( 1219): onReceive android.intent.action.SCREEN_OFF
+I/IdleWidgetProvider( 1219): onReceive intent=Intent { act=android.intent.action.SCREEN_OFF cmp=com.lonshine.idlewidget/.IdleWidgetProvider }
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+D/dalvikvm(  939): GC_CONCURRENT freed 382K, 53% free 4333K/9095K, external 305K/809K, paused 10ms+14ms
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34593, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141692928 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/StorageMonitor( 1090): mms freeMem:127012864, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+D/dalvikvm(  939): GC_CONCURRENT freed 388K, 53% free 4331K/9095K, external 305K/809K, paused 11ms+14ms
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34593, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141692928 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+D/StorageMonitor( 1090): mms freeMem:127012864, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+D/dalvikvm(  939): GC_CONCURRENT freed 387K, 53% free 4330K/9095K, external 305K/809K, paused 10ms+14ms
+D/BtCallHandler( 1090): getBtCallState is IDLE
+D/BtCallHandler( 1090): getBtCallState is IDLE
+I/power   (  939): *** set_screen_state 1
+D/SurfaceFlinger(  939): Screen about to return, flinger = 0x15f978
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=62 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+I/InputDispatcher(  939): Dropped event because input dispatch is disabled.
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/BluetoothSettings( 1349): onDeviceAdded
+I/IdleWidgetApp( 1219): onReceive android.intent.action.SCREEN_ON
+D/IdleWidgetApp( 1219): EVENT_TIME_TICK now= 9:9
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetProvider( 1219): onReceive intent=Intent { act=android.intent.action.SCREEN_ON cmp=com.lonshine.idlewidget/.IdleWidgetProvider }
+D/IdleWidgetApp( 1219): EVENT_TIME_TICK now= 9:9
+I//system/bin/bluetoothd( 1435): bluetoothd[1436]: Discovery session 0x17730 with :1.0 activated
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Adapter:PropertyChanged from /org/bluez/1436/hci0
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.adapter.action.DISCOVERY_STARTED
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Adapter:DeviceFound from /org/bluez/1436/hci0
+D/BluetoothService(  939): updateDeviceServiceChannelCache(E8:8D:28:E0:AC:51)
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.device.action.FOUND
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Adapter:DeviceFound from /org/bluez/1436/hci0
+D/BluetoothService(  939): updateDeviceServiceChannelCache(A4:DB:30:5C:D3:47)
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.device.action.FOUND
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Adapter:DeviceFound from /org/bluez/1436/hci0
+D/BluetoothService(  939): updateDeviceServiceChannelCache(F8:A4:5F:87:C3:EE)
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.device.action.FOUND
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Adapter:DeviceFound from /org/bluez/1436/hci0
+D/BluetoothService(  939): updateDeviceServiceChannelCache(5C:DA:D4:00:CB:E7)
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.device.action.FOUND
+I/BluetoothSettings( 1349): onDeviceAdded
+I/BluetoothSettings( 1349): ready add createDevicePreference
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/DeviceStorageMonitorService(  939): restatDataDir mDataFileStats.getAvailableBlocks():34593, mDataFileStats.getBlockSize():4096
+V/DeviceStorageMonitorService(  939): freeMemory=141692928 mMemLowThreshold = 18271430 mLowMemFlag = false checkCache = true
+I/DeviceStorageMonitorService(  939): Posting Message again
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Adapter:PropertyChanged from /org/bluez/1436/hci0
+I//system/bin/bluetoothd( 1435): bluetoothd[1436]: Stopping discovery
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.adapter.action.DISCOVERY_FINISHED
+D/dalvikvm( 1349): GC_CONCURRENT freed 502K, 49% free 3140K/6087K, external 409K/815K, paused 14ms+11ms
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+E/LocalBluetoothProfileManager( 1349): in func isPreferred
+E/LocalBluetoothProfileManager( 1349): in func getConnectedDevices
+E/BluetoothPan( 1349): getConnectedDevice()
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState0
+E/BluetoothPan( 1349): getConnectedDevice()
+E/LocalBluetoothProfileManager( 1349): in func connect
+E/BluetoothPan( 1349): connect(E8:8D:28:E0:AC:51)
+E/BluetoothPanService(  939): connect PAN(/org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51)
+E/BluetoothPanService(  939): in func handlePanDeviceStateChang iface=null state=1 role=2
+E/BluetoothPanService(  939): Pan Device state : device: E8:8D:28:E0:AC:51 State:0->1
+E/BluetoothPanService.cpp(  939): in jboolean android::connectPanDeviceNative(JNIEnv*, _jobject*, _jstring*, _jstring*): c_path:/org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51, dest:nap
+E/BluetoothPanService.cpp(  939): end of connectNative
+E/BluetoothPanService(  939): connecting to PAN
+D/CachedBluetoothDevice( 1349): Command sent successfully:CONNECT Address:E8:8D:28:E0:AC:51 Profile:PAN
+D/CachedBluetoothDevice( 1349): Preferred profiles = 1
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.pan.action.STATE_CHANGED
+I/BluetoothEventRedirector( 1349): android.bluetooth.pan.action.STATE_CHANGED: 0 => 1
+D/CachedBluetoothDevice( 1349): onProfileStateChanged: profile PAN newProfileState 1
+E/LocalBluetoothProfileManager( 1349): in func converState1
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState1
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState1
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState1
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState1
+W/InputManagerService(  939): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@4050d990
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Device:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+I//system/bin/bluetoothd( 1435): bluetoothd[1436]: link_key_request (sba=00:03:19:00:00:00, dba=E8:8D:28:E0:AC:51)
+D/Tethering(  939): bnep0 is not a tetherable iface, ignoring
+E/BluetoothPanService.cpp(  939): onPanDeviceConnectionResult
+E/BluetoothPanService.cpp(  939):  Pan Device Path = /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51, result = 1004
+D/BluetoothPanService(  939): onPanDeviceConnectionResult /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51 1004
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Network:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothPanService.cpp(  939): pan_event_filter
+E/BluetoothPanService.cpp(  939):  
+E/BluetoothPanService.cpp(  939): org.bluez.Network PropertyChanged
+E/BluetoothPanService(  939): onPanDevicePropertyChanged
+D/BluetoothPanService(  939): Pan Device property changed: E8:8D:28:E0:AC:51  property: Connected value: true
+D/BluetoothPanService(  939): Connected
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Network:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothPanService.cpp(  939): pan_event_filter
+E/BluetoothPanService.cpp(  939):  
+E/BluetoothPanService.cpp(  939): org.bluez.Network PropertyChanged
+E/BluetoothPanService(  939): onPanDevicePropertyChanged
+D/BluetoothPanService(  939): Pan Device property changed: E8:8D:28:E0:AC:51  property: Interface value: bnep0
+D/BluetoothPanService(  939): interface
+D/BluetoothPanService(  939): interface true
+E/BluetoothPanService(  939): in func handlePanDeviceStateChang iface=bnep0 state=2 role=2
+E/BluetoothTethering(  939): in startReverseTether
+V/BluetoothEventRedirector( 1349): Received android.bluetooth.pan.action.STATE_CHANGED
+I/BluetoothEventRedirector( 1349): android.bluetooth.pan.action.STATE_CHANGED: 1 => 2
+D/CachedBluetoothDevice( 1349): onProfileStateChanged: profile PAN newProfileState 2
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+I//system/bin/bluetoothd( 1435): bluetoothd[1436]: bnep0 zfh connected
+E/BluetoothPanService(  939): Pan Device state : device: E8:8D:28:E0:AC:51 State:1->2
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+E/BluetoothEventLoop.cpp(  939): event_filter: Received signal org.bluez.Network:PropertyChanged from /org/bluez/1436/hci0/dev_E8_8D_28_E0_AC_51
+E/BluetoothPanService.cpp(  939): pan_event_filter
+E/BluetoothPanService.cpp(  939):  
+E/BluetoothPanService.cpp(  939): org.bluez.Network PropertyChanged
+E/BluetoothPanService(  939): onPanDevicePropertyChanged
+D/BluetoothPanService(  939): Pan Device property changed: E8:8D:28:E0:AC:51  property: UUID value: 00001116-0000-1000-8000-00805f9b34fb
+D/BluetoothHFService( 1090): bt_call profilesetting is 0, bluetooth is enable=true, bail
+E/LocalBluetoothProfileManager( 1349): in func getConnectionStatus
+E/BluetoothPan( 1349): getConnectionState(E8:8D:28:E0:AC:51)
+E/LocalBluetoothProfileManager( 1349): in func converState2
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+E/ConnectivityServiceExt(  939): NetworkStateTracker.EVENT_CONFIGURATION_CHANGED
+I/ConnectivityServiceExt(  939): handleConnect type: 7
+D/ConnectivityServiceExt(  939): adding dns 172.20.10.1 for BLUETOOTH_TETHER
+D/ConnectivityServiceExt(  939): ConnectivityChange for BLUETOOTH_TETHER: CONNECTED/CONNECTED
+V/NetworkStateTracker(  939): Setting TCP values: [4095,87380,110208,4096,16384,110208] which comes from [net.tcp.buffersize.wifi]
+E/ConnectivityServiceExt(  939): handleConnectivityChange
+D/NetworkStateTracker(  939): addDefaultRoute for BLUETOOTH_TETHER (bnep0), GatewayAddr=17437868
+D/ConnectivityServiceExt(  939): adding dns 172.20.10.1 for BLUETOOTH_TETHER
+E/SyncManager(  939): manageSyncAlarm: shouldSet = false shouldCancel = false
+D/Tethering(  939): MasterInitialState.processMessage what=3
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/dalvikvm(  939): GC_CONCURRENT freed 382K, 53% free 4336K/9095K, external 305K/809K, paused 10ms+14ms
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/StorageMonitor( 1090): mms freeMem:127012864, smslowflag:false,mmslowflag:false,smsThrehold:10240,mmsThreshold:317440
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+D/dalvikvm( 1256): GC_EXPLICIT freed 38K, 51% free 2837K/5703K, external 261K/515K, paused 98ms
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=battery index=7 viewIndex=5 old=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x10802fe level=64 visible=true num=0 )
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )
+D/AlarmManagerService(  939): type :1
+D/AlarmManagerService(  939): needSetRtc :false
+I/IdleWidgetProvider( 1219): updateIcon slot=phone_signal index=5 viewIndex=4 old=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 ) icon=StatusBarIcon(pkg=com.android.systemui id=0x7f020068 level=0 visible=true num=0 )

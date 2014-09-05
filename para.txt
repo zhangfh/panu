@@ -1,0 +1,16 @@
+[init.svc.dhcpcd_bnep0]: [stopped]
+[dhcp.bnep0.pid]: [1506]
+[dhcp.bnep0.reason]: [STOP]
+[dhcp.bnep0.dns1]: []
+[dhcp.bnep0.dns2]: []
+[dhcp.bnep0.dns3]: []
+[dhcp.bnep0.dns4]: []
+[dhcp.bnep0.ipaddress]: [172.20.10.5]
+[dhcp.bnep0.gateway]: [172.20.10.1]
+[dhcp.bnep0.mask]: [255.255.255.240]
+[dhcp.bnep0.leasetime]: [85536]
+[dhcp.bnep0.server]: [172.20.10.1]
+[net.dns1]: [172.20.10.1]
+[net.dnschange]: [3]
+
+
